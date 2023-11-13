@@ -21,6 +21,11 @@
           description = "A basic rust template";
         };
 
+        R = {
+          path = ./R;
+          description = "A basic R template";
+        };
+
         devenv = {
           path = ./devenv;
           description = "A basic devenv.sh template";
