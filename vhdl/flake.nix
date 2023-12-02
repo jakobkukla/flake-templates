@@ -25,6 +25,7 @@
             {
               # https://devenv.sh/reference/options/
               packages = with pkgs; [
+                vhdl-ls
                 ghdl
               ];
             }
