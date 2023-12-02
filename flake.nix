@@ -26,6 +26,11 @@
           description = "A basic R template";
         };
 
+        vhdl = {
+          path = ./vhdl;
+          description = "A basic vhdl template";
+        };
+
         devenv = {
           path = ./devenv;
           description = "A basic devenv.sh template";
