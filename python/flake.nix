@@ -33,6 +33,10 @@
 
               languages.python.enable = true;
               languages.python.package = pkgs.python3.withPackages python_pkgs;
+
+              pre-commit.hooks = {
+                black.enable = true;
+              };
             }
           ];
         };
