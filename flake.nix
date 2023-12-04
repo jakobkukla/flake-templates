@@ -31,6 +31,11 @@
           description = "A basic vhdl template";
         };
 
+        python = {
+          path = ./python;
+          description = "A basic python template";
+        };
+
         devenv = {
           path = ./devenv;
           description = "A basic devenv.sh template";
