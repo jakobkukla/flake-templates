@@ -21,6 +21,11 @@
           description = "A basic rust template";
         };
 
+        C = {
+          path = ./C;
+          description = "A basic C template";
+        };
+
         R = {
           path = ./R;
           description = "A basic R template";
