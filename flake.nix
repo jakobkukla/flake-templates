@@ -63,6 +63,7 @@
           {
             pre-commit.hooks = {
               alejandra.enable = true;
+              commitizen.enable = true;
               markdownlint.enable = true;
             };
           }
