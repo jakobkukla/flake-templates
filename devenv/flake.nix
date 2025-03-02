@@ -16,6 +16,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in {
       packages.devenv-up = self.devShells.${system}.default.config.procfileScript;
+      packages.devenv-test = self.devShells.${system}.default.config.test;
 
       devShells.default = devenv.lib.mkShell {
         inherit inputs pkgs;
