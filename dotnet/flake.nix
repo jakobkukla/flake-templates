@@ -24,6 +24,12 @@
           {
             languages.dotnet.enable = true;
 
+            packages = with pkgs; [
+              # LSP and debugger for helix
+              omnisharp-roslyn
+              netcoredbg
+            ];
+
             pre-commit.hooks = {
               alejandra.enable = true;
               commitizen.enable = true;
