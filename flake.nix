@@ -31,6 +31,11 @@
           description = "A basic C++ template";
         };
 
+        dotnet = {
+          path = ./dotnet;
+          description = "A basic dotnet template";
+        };
+
         R = {
           path = ./R;
           description = "A basic R template";
