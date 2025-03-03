@@ -24,6 +24,9 @@
           {
             languages.dotnet.enable = true;
 
+            # set dotnet errors and cli in english
+            env.DOTNET_CLI_UI_LANGUAGE = "en";
+
             packages = with pkgs; [
               # LSP and debugger for helix
               omnisharp-roslyn
