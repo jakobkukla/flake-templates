@@ -28,6 +28,9 @@
             env.DOTNET_CLI_UI_LANGUAGE = "en";
 
             packages = with pkgs; [
+              # formatting
+              csharpier
+
               # LSP and debugger for helix
               omnisharp-roslyn
               netcoredbg
