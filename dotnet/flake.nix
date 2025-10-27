@@ -28,6 +28,7 @@
             };
 
             # set dotnet errors and cli in english
+            env.LANG = "en_US.UTF-8";
             env.DOTNET_CLI_UI_LANGUAGE = "en";
 
             packages = with pkgs; [
