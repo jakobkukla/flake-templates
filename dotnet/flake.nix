@@ -22,7 +22,10 @@
         inherit inputs pkgs;
         modules = [
           {
-            languages.dotnet.enable = true;
+            languages.dotnet = {
+              enable = true;
+              package = pkgs.dotnet-sdk;
+            };
 
             # set dotnet errors and cli in english
             env.DOTNET_CLI_UI_LANGUAGE = "en";
